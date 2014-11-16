@@ -121,10 +121,10 @@ a {
     transform: translate3d(0px, -100%, 0px);
 }
 
-.tile.loft .content {
+.tile.loft .content, .tile.loft-bottom .content {
     overflow: hidden;
 }
-.tile.loft .face {
+.tile.loft .face, .tile.loft-bottom .face {
     height: 100%;
 }
 .tile.loft .back {
@@ -143,64 +143,57 @@ a {
     transform: translate3d(0px, 0px, 0px);
 }
 
-.tile.fb .face {
+.tile.loft-bottom .back {
+    -webkit-transition: -webkit-transform 250ms linear;
+    transition: transform 250ms linear;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    -webkit-transform: translate3d(0px, 200%, 0px);
+    transform: translate3d(0px, 200%, 0px);
+}
+.tile.loft-bottom:hover .content .back {
+    -webkit-transform: translate3d(0px, 100%, 0px);
+    transform: translate3d(0px, 100%, 0px);
+}
+
+.tile .face {
     background: #fff;
-    color: #3b579d;
     text-align: center;
     white-space: nowrap;
 }
-.tile.fb .face .logo {
+
+.tile .face .logo {
     width: 56px;
     height: 56px;
     display: inline-block;
     vertical-align: middle;
     margin: 2px;
 }
-.tile.fb .face .text {
+
+.tile .face .text {
     font-size: 16px;
     vertical-align: middle;
+}
+
+.tile.fb .face {
+    color: #3b579d;
 }
 .tile.fb .back {
     background: #f00;
 }
 
 .tile.gp .face {
-    background: #fff;
     color: #dc4a38;
-    text-align: center;
-    white-space: nowrap;
-}
-.tile.gp .face .logo {
-    width: 56px;
-    height: 56px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 2px;
-}
-.tile.gp .face .text {
-    font-size: 16px;
-    vertical-align: middle;
 }
 .tile.gp .back {
     background: #00f;
 }
 
 .tile.so .face {
-    background: #fff;
     color: #fe7a15;
-    text-align: center;
-    white-space: nowrap;
-}
-.tile.so .face .logo {
-    width: 56px;
-    height: 56px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 2px;
-}
-.tile.so .face .text {
-    font-size: 16px;
-    vertical-align: middle;
 }
 .tile.so .back {
     background: #fe7a15;
@@ -211,21 +204,7 @@ a {
 }
 
 .tile.gh .face {
-    background: #fff;
     color: #333;
-    text-align: center;
-    white-space: nowrap;
-}
-.tile.gh .face .logo {
-    width: 56px;
-    height: 56px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 2px;
-}
-.tile.gh .face .text {
-    font-size: 16px;
-    vertical-align: middle;
 }
 .tile.gh .back {
     background: #f5f5f5;
@@ -238,30 +217,15 @@ a {
 }
 
 .tile.li .face {
+    color: #000;
+}
+.tile.li .back {
     background: #fff;
     color: #000;
     text-align: center;
-    white-space: nowrap;
-}
-.tile.li .face .logo {
-    width: 56px;
-    height: 56px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 2px;
-}
-.tile.li .face .text {
     font-size: 16px;
-    vertical-align: middle;
-}
-.tile.li .back {
-    background: #f5f5f5;
-    color: #000;
-    border-bottom: 1px solid #e5e5e5;
-    text-align: center;
     opacity: 0.95;
-    font-size: 16px;
-    font-weight: 700;
+    border-top: 1px solid #e5e5e5;
 }
 .tile.li .back a {
     color: #000;
