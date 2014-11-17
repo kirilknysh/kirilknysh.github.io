@@ -182,11 +182,24 @@ a {
     color: #3b579d;
 }
 .tile.fb .back {
-    background: #3b579d;
     color: #fff;
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
+    background: #3b579d url('https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/c0.137.851.315/p851x315/1040035_536965919708526_785602906_o.jpg') no-repeat;
+    background-size: contain;
+}
+.tile.fb .back .logo {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    border: 2px solid #fff;
+}
+.tile.fb .back .text {
+    position: absolute;
+    bottom: 2px;
+    right: 6px;
 }
 
 .tile.gp .face {
