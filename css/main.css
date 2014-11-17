@@ -188,7 +188,7 @@ a {
     background: #3b579d url('https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/c0.137.851.315/p851x315/1040035_536965919708526_785602906_o.jpg') no-repeat;
     background-size: contain;
 }
-.tile.fb .back .logo {
+.tile.fb .back .logo-face {
     width: 56px;
     height: 56px;
     position: absolute;
@@ -206,12 +206,35 @@ a {
     color: #dc4a38;
 }
 .tile.gp .back {
-    background: #fff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background: #e5e5e5 url('https://lh4.googleusercontent.com/-YBuUuCZvrYg/UkhmD3qQH2I/AAAAAAAACk8/otji905uj1g/s630-fcrop64=1,1b672c19ef3bff6c/WP_20130923_18_01_18_SmartShoot.jpg') no-repeat;
+    background-size: cover;
 }
-.tile.gp .back > div {
-    width: 100%!important;
-    overflow: hidden;
-    vertical-align: middle!important;
+.tile.gp .back .logo-bg {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.7);
+}
+.tile.gp .back .logo-bg .logo-face {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+    top: 10%;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.tile.gp .back .text {
+    position: absolute;
+    bottom: 2px;
+    right: 6px;
 }
 
 .tile.so .face {
