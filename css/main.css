@@ -304,6 +304,24 @@ a {
     left: 0px;
 }
 
+.tile.rs .face {
+    color: #444;
+}
+.tile.rs .back {
+    background: #fff;
+}
+.tile.rs .back .logo-face {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    margin: auto auto;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-radius: 50%;
+}
+
 .tile.width.height .face .text {
     display: none;
 }
@@ -325,4 +343,7 @@ a {
 }
 .logo-li {
     background-position: 0px -224px;
+}
+.logo-rs {
+    background-position: 0px -280px;
 }
