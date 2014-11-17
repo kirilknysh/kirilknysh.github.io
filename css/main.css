@@ -259,6 +259,22 @@ a {
     opacity: 0.95;
     font-size: 16px;
     font-weight: 700;
+    text-align: right;
+}
+.tile.gh .back .logo-face {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 6px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+}
+.tile.gh .back .text {
+    vertical-align: middle;
+    margin-right: 6px;
 }
 
 .tile.li .face {
