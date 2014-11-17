@@ -285,14 +285,22 @@ a {
     color: #000;
     text-align: center;
     font-size: 16px;
-    opacity: 0.95;
-    border-top: 1px solid #e5e5e5;
+    background: url('https://media.licdn.com/media//p/8/005/09b/3d8/3894dd8.jpg') no-repeat;
+    background-size: cover;
 }
-.tile.li .back a {
-    color: #000;
+.tile.li .back .logo-bg {
+    background: #fff;
+    position: absolute;
+    left: 10%;
+    width: 50%;
+    height: 50%;
+    bottom: 0px;
 }
-.tile.li .IN-widget {
-    margin-top: 10px;
+.tile.li .back .logo-bg .logo-face {
+    position: absolute;
+    top: 5%;
+    height: 90%;
+    left: 0px;
 }
 
 .tile.width.height .face .text {
