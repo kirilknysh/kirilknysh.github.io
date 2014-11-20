@@ -1,3 +1,7 @@
+html {
+    font-size: 18px;
+}
+
 body {
     padding: 0px;
     margin: 0px 10vw;
@@ -7,6 +11,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 .vertical-align {
@@ -24,7 +32,7 @@ a {
 }
 
 .tile {
-    font-size: 16px;
+    font-size: 1.1rem;
     display: inline-block;
     min-width: 64px;
     min-height: 64px;
@@ -181,8 +189,11 @@ a {
 }
 
 .tile .face .text {
-    font-size: 16px;
+    font-size: 1.1rem;
     vertical-align: middle;
+}
+.tile .back .text {
+    font-size: 1.1rem;
 }
 
 .tile.fb .face {
@@ -190,7 +201,6 @@ a {
 }
 .tile.fb .back {
     color: #fff;
-    font-size: 16px;
     font-weight: 700;
     background: #3b579d url('https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/c0.137.851.315/p851x315/1040035_536965919708526_785602906_o.jpg') no-repeat;
     background-size: contain;
@@ -214,7 +224,6 @@ a {
 }
 .tile.gp .back {
     color: #fff;
-    font-size: 16px;
     font-weight: 700;
     background: #e5e5e5 url('https://lh4.googleusercontent.com/-YBuUuCZvrYg/UkhmD3qQH2I/AAAAAAAACk8/otji905uj1g/s630-fcrop64=1,1b672c19ef3bff6c/WP_20130923_18_01_18_SmartShoot.jpg') no-repeat;
     background-size: cover;
@@ -264,7 +273,6 @@ a {
     border-bottom: 1px solid #e5e5e5;
     text-align: center;
     opacity: 0.95;
-    font-size: 16px;
     font-weight: 700;
     text-align: right;
 }
@@ -282,6 +290,7 @@ a {
 .tile.gh .back .text {
     vertical-align: middle;
     margin-right: 6px;
+    font-size: 0.7rem;
 }
 
 .tile.li .face {
@@ -291,7 +300,6 @@ a {
     background: #fff;
     color: #000;
     text-align: center;
-    font-size: 16px;
     background: url('https://media.licdn.com/media//p/8/005/09b/3d8/3894dd8.jpg') no-repeat;
     background-size: cover;
 }
@@ -352,4 +360,45 @@ a {
 }
 .logo-rs {
     background-position: 0px -280px;
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 20px;
+    }
+
+    .tile.width {
+        width: 40vmin;
+    }
+    .tile.width-l {
+        width: 40vmin;
+    }
+
+    .tile.width.height .face .text {
+        display: inline-block;
+    }
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 22px;
+    }
+
+    .tile.width {
+        width: 80vmin;
+    }
+    .tile.width-l {
+        width: 80vmin;
+    }
+
+    .tile.width.height .face .text {
+        display: inline-block;
+    }
+}
+@media (max-height: 600px) {
+    .tile.height {
+        height: 30vmin;
+    }
+    .tile.height-l {
+        height: 40vmin;
+    }
 }
