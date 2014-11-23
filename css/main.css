@@ -181,8 +181,7 @@ h2 {
 }
 
 .tile .face .logo {
-    width: 56px;
-    height: 56px;
+    height: 80%;
     display: inline-block;
     vertical-align: middle;
     margin: 2px;
@@ -338,28 +337,6 @@ h2 {
 
 .tile.width.height .face .text {
     display: none;
-}
-
-.logo {
-    background: url('../img/logos.png') no-repeat;
-}
-.logo-fb {
-    background-position: 0px 0px;
-}
-.logo-so {
-    background-position: 0px -56px;
-}
-.logo-gh {
-    background-position: 0px -112px;
-}
-.logo-gp {
-    background-position: 0px -168px;
-}
-.logo-li {
-    background-position: 0px -224px;
-}
-.logo-rs {
-    background-position: 0px -280px;
 }
 
 @media (max-width: 900px) {
