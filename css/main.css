@@ -202,7 +202,7 @@ h2 {
     color: #fff;
     font-weight: 700;
     background: #3b579d url('https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/c0.137.851.315/p851x315/1040035_536965919708526_785602906_o.jpg') no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .tile.fb .back .logo-face {
     width: 56px;
@@ -214,8 +214,13 @@ h2 {
 }
 .tile.fb .back .text {
     position: absolute;
-    bottom: 2px;
-    right: 6px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background: #3b579d;
+    text-align: right;
+    padding: 2px 6px;
+    box-sizing: border-box;
 }
 
 .tile.gp .face {
