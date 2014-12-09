@@ -340,6 +340,17 @@ h2 {
     border-radius: 50%;
 }
 
+.tile.ld .face {
+    color: #222;
+}
+
+.tile.ld .back {
+    font-size: 1rem;
+    background: #6d426d;
+    text-align: center;
+    color: #fff;
+}
+
 .tile.width.height .face .text {
     display: none;
 }
