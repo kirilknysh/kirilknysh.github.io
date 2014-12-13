@@ -190,6 +190,8 @@ h2 {
 .tile .face .text {
     font-size: 1.1rem;
     vertical-align: middle;
+    white-space: normal;
+    max-width: 50%;
 }
 .tile .back .text {
     font-size: 1.1rem;
@@ -262,10 +264,10 @@ h2 {
 }
 .tile.so .back {
     background: #fe7a15;
+    text-align: center;
 }
 .tile.so .back .flair {
     vertical-align: middle;
-    width: 100%;
 }
 
 .tile.gh .face {
