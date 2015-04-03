@@ -353,6 +353,25 @@ h2 {
     color: #fff;
 }
 
+.tile.lt .face {
+    color: #646464;
+}
+.tile.lt .back {
+    text-align: center;
+    background: #f2f2f2;
+    color: #646464;
+}
+.tile.lt .back .text {
+    display: inline-block;
+}
+
+.lt .leap {
+    color: #000;
+}
+.lt .motion {
+    color: #5daa00;
+}
+
 .tile.width.height .face .text {
     display: none;
 }
