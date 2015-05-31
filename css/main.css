@@ -380,6 +380,17 @@ h2 {
     text-align: center;
 }
 
+.tile.bd .content {
+    color: #000;
+}
+.tile.bd .back {
+    font-size: 1.1rem;
+    background: rgba(7, 105, 173, 0.9);
+    border-top: 1px solid rgba(4, 74, 122, 0.9);
+    color: #fff;
+    text-align: center;
+}
+
 .tile.width.height .face .text {
     display: none;
 }
