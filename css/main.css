@@ -372,6 +372,14 @@ h2 {
     color: #5daa00;
 }
 
+.tile.link-it .content {
+    color: #333;
+}
+.tile.link-it .back {
+    background: #fff;
+    text-align: center;
+}
+
 .tile.width.height .face .text {
     display: none;
 }
