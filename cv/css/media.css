@@ -1,0 +1,69 @@
+@media screen
+  and (orientation: portrait) {
+    .-title {
+        margin: .2em 0;
+    }
+
+    header .info .name {
+        margin: .1em 0;
+    }
+
+    header .info .position {
+        margin: .1em 0;
+    }
+
+    header .info .separator {
+        margin: .4em auto;
+    }
+
+    .content {
+        flex-direction: column-reverse;
+    }
+
+    .content .sidebar .asset {
+        margin-bottom: 1.5em;
+    }
+
+    .content .sidebar .contact .asset,
+    .content .sidebar .education .asset {
+        margin-bottom: 1em;
+    }
+
+    .content .main {
+        padding-right: 0;
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    .-title {
+        letter-spacing: .2em;
+    }
+
+    header .info {
+        white-space: nowrap;
+    }
+
+    header .info .name {
+        margin: .1em 0;
+    }
+
+    header .info .position {
+        margin: .1em 0;
+    }
+
+    header .info .separator {
+        margin: .4em auto;
+    }
+
+    .content .sidebar .asset {
+        margin-bottom: 1.5em;
+    }
+
+    .content .sidebar .contact .asset,
+    .content .sidebar .education .asset {
+        margin-bottom: 1em;
+    }
+}

@@ -1,0 +1,143 @@
+html {
+    --highlight: #75b3a0;
+    --light-highlight: #caf1e6;
+    --dark-highlight: #376f5e;
+
+    --title-letter-spacing: .5em;
+    --negate-title-letter-spacing: -.5em;
+
+    border-top: 2em solid var(--highlight);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.-title {
+    color: var(--dark-highlight);
+    text-transform: uppercase;
+    letter-spacing: var(--title-letter-spacing);
+    font-weight: normal;
+}
+.-text {
+    text-align: justify;
+}
+.-list {
+    list-style: none;
+    padding-left: var(--left-spacing);
+}
+.-list.-level-0 {
+    --left-spacing: 1em;
+    --negate-left-spacing: -1em;
+    --marker-left-padding: 0;
+}
+.-list.-level-1 {
+    --left-spacing: 2em;
+    --negate-left-spacing: -2em;
+    --marker-left-padding: 1em;
+}
+.-list li::before {
+    content: "\00a0";
+    background: url(../img/double-circle-bullet.svg) no-repeat 50% 50%;
+    background-size: .5em;
+    position: absolute;
+    width: var(--left-spacing);
+    margin-left: var(--negate-left-spacing);
+    padding-left: var(--marker-left-padding);
+}
+
+body {
+    margin: 0 5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 1vh 0;
+    border-bottom: 1em solid var(--light-highlight);
+    max-height: 25vh;
+}
+
+header .info {
+    flex: 2;
+    text-align: center;
+}
+header .info .name {
+    font-weight: normal;
+    letter-spacing: .7em;
+}
+header .info .separator {
+    background: var(--highlight);
+    height: .1em;
+    width: 10vw;
+    margin: auto;
+}
+
+header .photo {
+    flex: 1 2;
+    position: relative;
+}
+header .photo .image {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.content {
+    display: flex;
+}
+
+.content .main {
+    flex: 70%;
+    padding-right: 2em;
+}
+.content .main .asset {
+    margin-bottom: 3em;
+}
+
+.content .sidebar {
+    flex: 30%;
+    text-align: right;
+}
+.content .sidebar .-title {
+    margin-right: var(--negate-title-letter-spacing);
+}
+.content .sidebar .asset {
+    margin-bottom: 3em;
+}
+.content .sidebar .contact .asset,
+.content .sidebar .education .asset {
+    margin-bottom: 1.5em;
+}
+.content .sidebar .contact .asset {
+    height: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    font-size: .8em;
+}
+.content .sidebar .contact .icon {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 1em;
+}
+.content .sidebar .education h3 {
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: normal;
+}
+.content .sidebar .education p {
+    margin: .3em 0;
+    font-size: .8em;
+}

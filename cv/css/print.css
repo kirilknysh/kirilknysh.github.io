@@ -1,0 +1,29 @@
+@page {
+    size:  auto;   /* auto is the initial value */
+    margin: 0;  /* this affects the margin in the printer settings */
+}
+
+* {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+html {
+    margin: 0;
+}
+
+.-title {
+    letter-spacing: .2em;
+}
+
+.content .sidebar .-title {
+    margin-right: -.25em;
+}
+
+.content .sidebar .contact .icon {
+    margin-left: .5em;
+}
+
+.content .sidebar .education h3 {
+    font-size: 1.1em;
+}
