@@ -55,6 +55,7 @@ h2 {
 
 .tile.height {
     height: 20vmin;
+    line-height: 20vmin;
 }
 .tile.height-l {
     height: 40vmin;
@@ -197,13 +198,18 @@ h2 {
     font-size: 1.1rem;
 }
 
+.tile.cv .face {
+    color: #000;
+    font-size: 2em;
+}
+
 .tile.fb .face {
     color: #3b579d;
 }
 .tile.fb .back {
     color: #fff;
     font-weight: 700;
-    background: #3b579d url('https://scontent-a.xx.fbcdn.net/hphotos-prn2/t31.0-8/c0.137.851.315/p851x315/1040035_536965919708526_785602906_o.jpg') no-repeat;
+    background: #3b579d url('https://scontent-amt2-1.xx.fbcdn.net/v/t31.0-0/c0.0.884.327/p480x480/21458008_1624224080982699_5722242547088544574_o.jpg?_nc_cat=0&oh=04efc855a435f71ddeb632085dbe1399&oe=5BDD76A0') no-repeat;
     background-size: cover;
 }
 .tile.fb .back .logo-face {
@@ -306,7 +312,7 @@ h2 {
     background: #fff;
     color: #000;
     text-align: center;
-    background: url('https://media.licdn.com/media//p/8/005/09b/3d8/3894dd8.jpg') no-repeat;
+    background: url('https://media.licdn.com/dms/image/C5616AQGWXgy-uP0ciA/profile-displaybackgroundimage-shrink_350_1400/0?e=1538006400&v=beta&t=KwlOyYol1IsgHDeqxXMiNdJGC4nQ3l7-EbrmB7Pl7dY') no-repeat;
     background-size: cover;
 }
 .tile.li .back .logo-bg {
@@ -430,6 +436,7 @@ h2 {
 @media (max-height: 600px) {
     .tile.height {
         height: 30vmin;
+        line-height: 30vmin;
     }
     .tile.height-l {
         height: 40vmin;
