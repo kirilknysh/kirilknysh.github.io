@@ -16,6 +16,10 @@ html {
     letter-spacing: .2em;
 }
 
+.content .main .experience .asset {
+    page-break-inside: avoid;
+}
+
 .content .sidebar .-title {
     margin-right: -.25em;
 }

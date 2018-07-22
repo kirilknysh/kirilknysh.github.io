@@ -40,6 +40,9 @@ a {
     --negate-left-spacing: -2em;
     --marker-left-padding: 1em;
 }
+.-list li {
+    line-height: 1.5;
+}
 .-list li::before {
     content: "\00a0";
     background: url(../img/double-circle-bullet.svg) no-repeat 50% 50%;
@@ -104,9 +107,19 @@ header .photo .image {
 .content .main {
     flex: 70%;
     padding-right: 2em;
+    text-align: justify;
 }
 .content .main .asset {
     margin-bottom: 3em;
+}
+.content .main .experience .asset {
+    margin-bottom: 2em;
+}
+.content .main .experience .asset .description {
+    margin-bottom: 0;
+}
+.content .main .experience .asset .resp {
+    margin-top: 0;
 }
 
 .content .sidebar {
