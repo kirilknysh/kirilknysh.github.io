@@ -133,7 +133,8 @@ header .photo .image {
     margin-bottom: 3em;
 }
 .content .sidebar .contact .asset,
-.content .sidebar .education .asset {
+.content .sidebar .education .asset,
+.content .sidebar .certificates .asset {
     margin-bottom: 1.5em;
 }
 .content .sidebar .contact .asset {
@@ -148,12 +149,17 @@ header .photo .image {
     max-height: 100%;
     margin-left: 1em;
 }
-.content .sidebar .education h3 {
+.content .sidebar .education h3,
+.content .sidebar .certificates h3 {
     text-transform: uppercase;
     margin: 0;
     font-weight: normal;
 }
 .content .sidebar .education p {
+    margin: .3em 0;
+    font-size: .8em;
+}
+.content .sidebar .certificates p {
     margin: .3em 0;
     font-size: .8em;
 }
