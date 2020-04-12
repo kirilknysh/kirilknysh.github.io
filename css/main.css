@@ -8,7 +8,7 @@ html {
     --vertical-indent: 2vh;
     --horizontal-indent: .5em;
 
-    overflow: hidden;
+    height: 100%;
     background: 0 0/cover url(../img/bg-full-size.jpg) no-repeat;
 }
 
@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     margin: 0 var(--horizontal-indent);
     color: var(--main-text-color);
 }
