@@ -112,14 +112,13 @@ header .photo .image {
 .content .main .asset {
     margin-bottom: 3em;
 }
-.content .main .experience .asset {
+.content .main .experience .asset,
+.content .main .pet-projects .asset {
     margin-bottom: 2em;
 }
-.content .main .experience .asset .description {
-    margin-bottom: 0;
-}
-.content .main .experience .asset .resp {
-    margin-top: 0;
+.content .main .experience .asset > *,
+.content .main .pet-projects .asset > * {
+    margin: 0 0 .7em;
 }
 
 .content .sidebar {
