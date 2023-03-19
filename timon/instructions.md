@@ -26,7 +26,8 @@ TODO: IMAGE
 
 **Bonus points** - drinking from hand. Just come into the bathroom and if Timon will follow you and jump on a cabinet (between washbasins) - that's a signal! Open the water tap (warm-ish) and let Timon do the rest :smiley_cat:
 
-![drink from hand](/timon/drink_hand.mp4)
+https://user-images.githubusercontent.com/3236551/226172758-56901822-7bcb-4b8d-82e5-e3dc60d04686.mp4
+
 
 ## Toilet
 
