@@ -1,5 +1,7 @@
 # Cat Timon
 
+![dcat timon](/timon/landing.jpg)
+
 ## Food
 
 **Dry food**: there's a jar with dry food near the food bowls. Dry food goes into the left bowl. Just make sure the bowl is full once a day.
@@ -35,9 +37,11 @@ https://user-images.githubusercontent.com/3236551/226172758-56901822-7bcb-4b8d-8
 
 ## Toilet
 
-Bags for poops on the table in the kitchen. The shovel is on the underside of the toilet lid.
+Bags for poops on the table in the kitchen or in the cupboard. The shovel is on the underside of the toilet lid.
 
 ![bags for poops](/timon/poop_bags.jpg)
+
+![bags for poops in the cupboard](/timon/poop_bags_2.jpg)
 
 ![bags for poops](/timon/poop_shovel.jpg)
 
