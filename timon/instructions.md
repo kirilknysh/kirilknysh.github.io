@@ -2,7 +2,7 @@
 
 ![dcat timon](/timon/landing.jpg)
 
-## Food
+## Food 🥣
 
 **Dry food**: there's a jar with dry food near the food bowls. Dry food goes into the left bowl. Just make sure the bowl is full once a day.
 
@@ -22,7 +22,7 @@ Wet food goes into the right bowl. If there're some leftovers from yesterday - t
 
 ![dry food refill](/timon/wet_food_bowl.jpg)
 
-## Water
+## Water 💦
 
 There are two glasses with water: one next to the sink in the kitchen, another - in the bathroom between washbasins. Simply refresh both glasses every time.
 
@@ -35,7 +35,7 @@ There are two glasses with water: one next to the sink in the kitchen, another -
 https://user-images.githubusercontent.com/3236551/226172758-56901822-7bcb-4b8d-82e5-e3dc60d04686.mp4
 
 
-## Toilet
+## Toilet 🚽
 
 Bags for poops on the table in the kitchen or in the cupboard. The shovel is on the underside of the toilet lid.
 
