@@ -8,15 +8,17 @@
 
 If the jar is empty - there's more dry food in a cupboard under the sink.
 
-TODO: IMAGE
+![dry food refill](/timon/dry_food_over.jpg)
 
 **Wet food**: also under the sink. We usually give half-a-pack every day, the second half put in the fridge.
 
-TODO: IMAGE
+![dry food refill](/timon/wet_food.jpg)
+
+![dry food second half](/timon/wet_food_fridge.jpg)
 
 Wet food goes into the right bowl. If there're some leftovers from yesterday - throw it away into the trash bin.
 
-TODO: IMAGE
+![dry food refill](/timon/wet_food_bowl.jpg)
 
 ## Water
 
