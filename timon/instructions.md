@@ -24,7 +24,9 @@ Wet food goes into the right bowl. If there're some leftovers from yesterday - t
 
 There are two glasses with water: one next to the sink in the kitchen, another - in the bathroom between washbasins. Simply refresh both glasses every time.
 
-TODO: IMAGE
+![water bowl in kitchen](/timon/water_kitchen.jpg)
+
+![water bowl in bathroom](/timon/water_bathroom.jpg)
 
 **Bonus points** - drinking from hand. Just come into the bathroom and if Timon will follow you and jump on a cabinet (between washbasins) - that's a signal! Open the water tap (warm-ish) and let Timon do the rest :smiley_cat:
 
@@ -35,6 +37,8 @@ https://user-images.githubusercontent.com/3236551/226172758-56901822-7bcb-4b8d-8
 
 Bags for poops on the table in the kitchen. The shovel is on the underside of the toilet lid.
 
-TODO: IMAGE
+![bags for poops](/timon/poop_bags.jpg)
+
+![bags for poops](/timon/poop_shovel.jpg)
 
 Check the toilet every time you come. Usually we clean it once every two days.
