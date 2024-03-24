@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163298997-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-163298997-1');
+    </script>
+    <title>Glycemic Index Glycemic Load</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./gigl.css">
+    <script type="text/javascript" src="gigl.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Glycemic Index Glycemic Load</h1>
+    </header>
+    <section class="content">
+      <table class="products">
+        <thead>
+          <tr>
+            <th scope="col" class="name-header">Product</th>
+            <th scope="col" class="gi-header">GI</th>
+            <th scope="col" class="gl-header">GL</th>
+          </tr>
+        </thead>
+        <tbody id="products-list-container">
+        </tbody>
+      </table>
+      <div class="search-input-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Product name..." />
+      </div>
+    </section>
+  </body>
+</html>
