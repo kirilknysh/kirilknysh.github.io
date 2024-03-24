@@ -1,52 +1,3 @@
-const data = {
-  limits: {
-    gi: [55, 69],
-    gl: [10, 19],
-  },
-  products: [
-    {
-      name_en: 'Almond',
-      name_nl: 'Amandel',
-      name_ru: 'Миндаль',
-      gi: 15,
-      gl: 1.9,
-      rowNode: null,
-    },
-    {
-      name_en: 'Apricot',
-      name_nl: 'Abrikoos',
-      name_ru: 'Абрикос',
-      gi: 34,
-      gl: 3.8,
-      rowNode: null,
-    },
-    {
-      name_en: 'Avocado',
-      name_nl: 'Avocado',
-      name_ru: 'Авокадо',
-      gi: 10,
-      gl: 0.9,
-      rowNode: null,
-    },
-    {
-      name_en: 'Banana',
-      name_nl: 'Banaan',
-      name_ru: 'Банан',
-      gi: 48,
-      gl: 10.1,
-      rowNode: null,
-    },
-    {
-      name_en: 'Sugar (brown)',
-      name_nl: 'Suiker (bruin)',
-      name_ru: 'Сахар (коричневый)',
-      gi: 80,
-      gl: 6.8,
-      rowNode: null,
-    },
-  ],
-};
-
 function getLimitClass(value, limits) {
   if (!Array.isArray(limits) || limits.length === 0) {
     return '';
@@ -147,3 +98,52 @@ window.addEventListener('load', () => {
 
   doFilter();
 });
+
+const data = {
+  limits: {
+    gi: [55, 69],
+    gl: [10, 19],
+  },
+  products: [
+    {
+      name_en: 'Almond',
+      name_nl: 'Amandel',
+      name_ru: 'Миндаль',
+      gi: 15,
+      gl: 1.9,
+      rowNode: null,
+    },
+    {
+      name_en: 'Apricot',
+      name_nl: 'Abrikoos',
+      name_ru: 'Абрикос',
+      gi: 34,
+      gl: 3.8,
+      rowNode: null,
+    },
+    {
+      name_en: 'Avocado',
+      name_nl: 'Avocado',
+      name_ru: 'Авокадо',
+      gi: 10,
+      gl: 0.9,
+      rowNode: null,
+    },
+    {
+      name_en: 'Banana',
+      name_nl: 'Banaan',
+      name_ru: 'Банан',
+      gi: 48,
+      gl: 10.1,
+      rowNode: null,
+    },
+    {
+      name_en: 'Sugar (brown)',
+      name_nl: 'Suiker (bruin)',
+      name_ru: 'Сахар (коричневый)',
+      gi: 80,
+      gl: 6.8,
+      rowNode: null,
+    },
+  ],
+};

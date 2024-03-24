@@ -44,8 +44,7 @@ header .title {
   border-width: 1px 0;
 }
 .products tbody tr.--hidden {
-  visibility: collapse;
-  height: 0;
+  display: none;
 }
 .products tbody tr td {
   padding: .4rem .4rem;
