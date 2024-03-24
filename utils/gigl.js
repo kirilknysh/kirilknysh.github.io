@@ -90,19 +90,21 @@ function createProductRow(product, limits) {
   return tr;
 }
 
-function filterByQuery(query, products) {
-  products.forEach((product) => {
+function filterByQuery(query, products, fuse) {
+  let fuseResults = [];
+  let showAll = true;
+  if (query) {
+    fuseResults = fuse.search(query);
+    showAll = false;
+  }
+  const matchedIndexes = new Set(fuseResults.map((fuseResult) => fuseResult.refIndex))
+
+  products.forEach((product, index) => {
     if (!product.rowNode) {
       return;
     }
 
-    if (!query) {
-      product.rowNode.classList.remove('--hidden');
-      return;
-    }
-
-    const match = product.name_en.includes(query) || product.name_nl.includes(query) || product.name_ru.includes(query);
-    product.rowNode.classList.toggle('--hidden', !match);
+    product.rowNode.classList.toggle('--hidden', !(showAll || matchedIndexes.has(index)));
   });
 }
 
@@ -116,10 +118,32 @@ window.addEventListener('load', () => {
     productsListContainer.appendChild(product.rowNode);
   });
 
+  const fuse = new Fuse(data.products, {
+    keys: ['name_en', 'name_nl', 'name_ru'],
+    findAllMatches: true,
+    shouldSort: false,
+    threshold: 0.4,
+  });
+  function doFilter() {
+    const query = new URL(window.location).searchParams.get('query') ?? '';
+    filterByQuery(query, data.products, fuse);
+  }
   const searchInput = document.querySelector('#search-input');
   if (searchInput) {
+    searchInput.value = new URL(window.location).searchParams.get('query') ?? '';
     searchInput.addEventListener('input', (event) => {
-      filterByQuery(searchInput.value ?? '', data.products);
+      const url = new URL(window.location);
+      url.searchParams.set('query', searchInput.value ?? '');
+      window.history.pushState(null, '', url.toString());
+      window.dispatchEvent(new CustomEvent('pushstate'));
+    });
+    window.addEventListener('popstate', () => {
+      doFilter();
+    });
+    window.addEventListener('pushstate', () => {
+      doFilter();
     });
   }
+
+  doFilter();
 });
