@@ -17,14 +17,19 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: center;
   flex-shrink: 0;
 }
 
 header .title {
   margin: 0;
   font-size: clamp(1rem, 4.5vw, 2rem);
+  text-align: center;
+}
+header .subtitle {
+  font-size: clamp(.5rem, 2.5vw, .8rem);
+  opacity: .7;
+  margin: 0;
+  text-align: center;
 }
 
 .content {
