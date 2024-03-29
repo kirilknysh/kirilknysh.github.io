@@ -97,6 +97,11 @@ window.addEventListener('load', () => {
   }
 
   doFilter();
+
+  window.visualViewport.addEventListener('resize', () => {
+    window.document.documentElement.style.height = `${window.visualViewport.height}px`;
+    window.scrollTo(0, 0);
+  });
 });
 
 const data = {
